@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/barcode_detection/barcode_detection.egg-info
+writing ../../build/barcode_detection/barcode_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/barcode_detection/barcode_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/barcode_detection/barcode_detection.egg-info/entry_points.txt
+writing requirements to ../../build/barcode_detection/barcode_detection.egg-info/requires.txt
+writing top-level names to ../../build/barcode_detection/barcode_detection.egg-info/top_level.txt
+writing manifest file '../../build/barcode_detection/barcode_detection.egg-info/SOURCES.txt'
+reading manifest file '../../build/barcode_detection/barcode_detection.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/barcode_detection/barcode_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/faiha/polearm/build/barcode_detection/build
+creating /home/faiha/polearm/build/barcode_detection/build/lib
+creating /home/faiha/polearm/build/barcode_detection/build/lib/barcode_detection
+copying barcode_detection/backup_node.py -> /home/faiha/polearm/build/barcode_detection/build/lib/barcode_detection
+copying barcode_detection/__init__.py -> /home/faiha/polearm/build/barcode_detection/build/lib/barcode_detection
+copying barcode_detection/two_webcam_node.py -> /home/faiha/polearm/build/barcode_detection/build/lib/barcode_detection
+copying barcode_detection/webcam_node.py -> /home/faiha/polearm/build/barcode_detection/build/lib/barcode_detection
+running install
+running install_lib
+creating /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection
+copying /home/faiha/polearm/build/barcode_detection/build/lib/barcode_detection/backup_node.py -> /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection
+copying /home/faiha/polearm/build/barcode_detection/build/lib/barcode_detection/__init__.py -> /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection
+copying /home/faiha/polearm/build/barcode_detection/build/lib/barcode_detection/two_webcam_node.py -> /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection
+copying /home/faiha/polearm/build/barcode_detection/build/lib/barcode_detection/webcam_node.py -> /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection
+byte-compiling /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection/backup_node.py to backup_node.cpython-310.pyc
+byte-compiling /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection/two_webcam_node.py to two_webcam_node.cpython-310.pyc
+byte-compiling /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection/webcam_node.py to webcam_node.cpython-310.pyc
+running install_data
+creating /home/faiha/polearm/install/barcode_detection/share/ament_index
+creating /home/faiha/polearm/install/barcode_detection/share/ament_index/resource_index
+creating /home/faiha/polearm/install/barcode_detection/share/ament_index/resource_index/packages
+copying resource/barcode_detection -> /home/faiha/polearm/install/barcode_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/faiha/polearm/install/barcode_detection/share/barcode_detection
+creating /home/faiha/polearm/install/barcode_detection/share/barcode_detection/launch
+copying launch/two_webcam_launch.py -> /home/faiha/polearm/install/barcode_detection/share/barcode_detection/launch
+running install_egg_info
+Copying ../../build/barcode_detection/barcode_detection.egg-info to /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection-0.0.1-py3.10.egg-info
+running install_scripts
+Installing barcode_node script to /home/faiha/polearm/install/barcode_detection/lib/barcode_detection
+writing list of installed files to '/home/faiha/polearm/build/barcode_detection/install.log'

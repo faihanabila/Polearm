@@ -1,0 +1,21 @@
+[0.867s] Invoking command in '/home/faiha/polearm/src/yolo': PYTHONPATH=/home/faiha/polearm/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faiha/polearm/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/faiha/polearm/build/yolo/build install --record /home/faiha/polearm/build/yolo/install.log --single-version-externally-managed install_data
+[1.084s] running egg_info
+[1.084s] writing ../../build/yolo/yolo.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../../build/yolo/yolo.egg-info/dependency_links.txt
+[1.085s] writing entry points to ../../build/yolo/yolo.egg-info/entry_points.txt
+[1.085s] writing requirements to ../../build/yolo/yolo.egg-info/requires.txt
+[1.085s] writing top-level names to ../../build/yolo/yolo.egg-info/top_level.txt
+[1.087s] reading manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[1.087s] writing manifest file '../../build/yolo/yolo.egg-info/SOURCES.txt'
+[1.088s] running build
+[1.088s] running build_py
+[1.088s] running install
+[1.088s] running install_lib
+[1.089s] running install_data
+[1.090s] running install_egg_info
+[1.091s] removing '/home/faiha/polearm/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.092s] Copying ../../build/yolo/yolo.egg-info to /home/faiha/polearm/install/yolo/lib/python3.10/site-packages/yolo-0.0.0-py3.10.egg-info
+[1.093s] running install_scripts
+[1.113s] Installing barciode_scanner script to /home/faiha/polearm/install/yolo/lib/yolo
+[1.113s] writing list of installed files to '/home/faiha/polearm/build/yolo/install.log'
+[1.157s] Invoked command in '/home/faiha/polearm/src/yolo' returned '0': PYTHONPATH=/home/faiha/polearm/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faiha/polearm/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/faiha/polearm/build/yolo/build install --record /home/faiha/polearm/build/yolo/install.log --single-version-externally-managed install_data

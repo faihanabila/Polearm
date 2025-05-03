@@ -1,0 +1,15 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/faiha/polearm/install/Barcode_Detection/lib/python3.10/site-packages",
+        "/home/faiha/polearm/src/barcode_detection/install/Barcode_Detection/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/faiha/polearm/install/Barcode_Detection/lib/python3.10/site-packages",
+        "/home/faiha/polearm/src/barcode_detection/install/Barcode_Detection/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble"
+}

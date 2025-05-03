@@ -1,0 +1,135 @@
+[0.579s] Invoking command in '/home/faiha/polearm/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake /home/faiha/polearm/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/faiha/polearm/install/usb_cam
+[0.690s] -- The C compiler identification is GNU 11.4.0
+[0.803s] -- The CXX compiler identification is GNU 11.4.0
+[0.815s] -- Detecting C compiler ABI info
+[0.955s] -- Detecting C compiler ABI info - done
+[0.965s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.966s] -- Detecting C compile features
+[0.966s] -- Detecting C compile features - done
+[0.971s] -- Detecting CXX compiler ABI info
+[1.138s] -- Detecting CXX compiler ABI info - done
+[1.148s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.149s] -- Detecting CXX compile features
+[1.149s] -- Detecting CXX compile features - done
+[1.153s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.475s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.899s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.907s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.922s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.966s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.052s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.056s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.220s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.269s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.358s] -- Looking for pthread.h
+[2.482s] -- Looking for pthread.h - found
+[2.482s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.599s] -- Found Threads: TRUE  
+[2.921s] -- Found OpenCV: /usr (found version "4.5.4") 
+[2.930s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.931s] -- Checking for module 'libavcodec'
+[2.958s] --   Found libavcodec, version 58.134.100
+[3.029s] -- Checking for module 'libavutil'
+[3.054s] --   Found libavutil, version 56.70.100
+[3.120s] -- Checking for module 'libswscale'
+[3.148s] --   Found libswscale, version 5.9.100
+[3.226s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.256s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.269s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.283s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.283s] -- Configured cppcheck include dirs: /home/faiha/polearm/src/usb_cam/include
+[3.283s] -- Configured cppcheck exclude dirs and/or files: 
+[3.296s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.297s] -- Configured cpplint exclude dirs and/or files: 
+[3.298s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.302s] -- Added test 'lint_cmake' to check CMake code style
+[3.305s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.318s] -- Added test 'uncrustify' to check C / C++ code style
+[3.319s] -- Configured uncrustify additional arguments: 
+[3.321s] -- Added test 'xmllint' to check XML markup files
+[3.326s] -- Configuring done
+[3.373s] -- Generating done
+[3.393s] -- Build files have been written to: /home/faiha/polearm/build/usb_cam
+[3.414s] Invoked command in '/home/faiha/polearm/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake /home/faiha/polearm/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/faiha/polearm/install/usb_cam
+[3.417s] Invoking command in '/home/faiha/polearm/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake --build /home/faiha/polearm/build/usb_cam -- -j16 -l16
+[3.504s] [ 14%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[3.504s] [ 14%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[3.506s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.506s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.843s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.955s] [ 35%] Built target gtest_main
+[6.039s] [ 42%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[6.358s] [ 42%] Built target usb_cam
+[6.393s] [ 50%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o[0m
+[7.702s] [ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.752s] [ 64%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[7.851s] [ 64%] Built target gtest
+[7.887s] [ 78%] [32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o[0m
+[7.887s] [ 78%] [32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o[0m
+[8.276s] [ 78%] Built target usb_cam_node_exe
+[9.595s] [ 85%] [32m[1mLinking CXX executable test_usb_cam_utils[0m
+[10.014s] [ 92%] [32m[1mLinking CXX executable test_pixel_formats[0m
+[10.192s] [ 92%] Built target test_usb_cam_utils
+[10.520s] [ 92%] Built target test_pixel_formats
+[14.466s] [100%] [32m[1mLinking CXX shared library libusb_cam_node.so[0m
+[14.990s] [100%] Built target usb_cam_node
+[15.005s] Invoked command in '/home/faiha/polearm/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake --build /home/faiha/polearm/build/usb_cam -- -j16 -l16
+[15.018s] Invoking command in '/home/faiha/polearm/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake --install /home/faiha/polearm/build/usb_cam
+[15.026s] -- Install configuration: ""
+[15.026s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/environment/library_path.sh
+[15.026s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[15.026s] -- Installing: /home/faiha/polearm/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[15.027s] -- Set runtime path of "/home/faiha/polearm/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""
+[15.027s] -- Installing: /home/faiha/polearm/install/usb_cam/lib/usb_cam/show_image.py
+[15.027s] -- Installing: /home/faiha/polearm/install/usb_cam/lib/libusb_cam.so
+[15.028s] -- Installing: /home/faiha/polearm/install/usb_cam/lib/libusb_cam_node.so
+[15.033s] -- Set runtime path of "/home/faiha/polearm/install/usb_cam/lib/libusb_cam_node.so" to ""
+[15.033s] -- Installing: /home/faiha/polearm/install/usb_cam/include
+[15.033s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam
+[15.033s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[15.034s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/conversions.hpp
+[15.034s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/constants.hpp
+[15.034s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats
+[15.034s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[15.034s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[15.034s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats/m420.hpp
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats/utils.hpp
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/formats/mono.hpp
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/utils.hpp
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/include/usb_cam/usb_cam.hpp
+[15.035s] -- Up-to-date: /home/faiha/polearm/install/usb_cam/lib/libusb_cam_node.so
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/launch
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/launch/camera_config.py
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/launch/__init__.py
+[15.035s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[15.036s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/config
+[15.036s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/config/params_2.yaml
+[15.036s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[15.036s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/config/params_1.yaml
+[15.036s] -- Installing: /home/faiha/polearm/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[15.036s] -- Installing: /home/faiha/polearm/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[15.037s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[15.037s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[15.037s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/environment/path.sh
+[15.037s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/environment/path.dsv
+[15.037s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/local_setup.bash
+[15.037s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/local_setup.sh
+[15.037s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/local_setup.zsh
+[15.038s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/local_setup.dsv
+[15.038s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/package.dsv
+[15.038s] -- Installing: /home/faiha/polearm/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[15.038s] -- Installing: /home/faiha/polearm/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[15.038s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[15.039s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.039s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.039s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[15.039s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[15.039s] -- Installing: /home/faiha/polearm/install/usb_cam/share/usb_cam/package.xml
+[15.043s] Invoked command in '/home/faiha/polearm/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake --install /home/faiha/polearm/build/usb_cam

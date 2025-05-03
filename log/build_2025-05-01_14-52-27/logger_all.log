@@ -1,0 +1,249 @@
+[0.163s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.163s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x755e4355b370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x755e4355a8f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x755e4355a8f0>>, mixin_verb=('build',))
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.404s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/faiha/polearm'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_detection) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_detection) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_detection) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_detection) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_detection) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_detection) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_detection) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/barcode_detection) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package 'src/barcode_detection' with type 'ros.ament_python' and name 'barcode_detection'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo' with type 'ros.ament_python' and name 'yolo'
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.495s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/faiha/polearm/install
+[0.497s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 302 installed packages in /opt/ros/humble
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'barcode_detection' build argument 'cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'barcode_detection' build argument 'cmake_target' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'barcode_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'barcode_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'barcode_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'barcode_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'barcode_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'barcode_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'barcode_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.553s] DEBUG:colcon.colcon_core.verb:Building package 'barcode_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faiha/polearm/build/barcode_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faiha/polearm/install/barcode_detection', 'merge_install': False, 'path': '/home/faiha/polearm/src/barcode_detection', 'symlink_install': False, 'test_result_base': None}
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.554s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faiha/polearm/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faiha/polearm/install/usb_cam', 'merge_install': False, 'path': '/home/faiha/polearm/src/usb_cam', 'symlink_install': False, 'test_result_base': None}
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_target' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_clean_first' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'cmake_force_configure' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'ament_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'yolo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.555s] DEBUG:colcon.colcon_core.verb:Building package 'yolo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faiha/polearm/build/yolo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faiha/polearm/install/yolo', 'merge_install': False, 'path': '/home/faiha/polearm/src/yolo', 'symlink_install': False, 'test_result_base': None}
+[0.555s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.556s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/faiha/polearm/src/barcode_detection' with build type 'ament_python'
+[0.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('barcode_detection', 'ament_prefix_path')
+[0.560s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/hook/ament_prefix_path.ps1'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/hook/ament_prefix_path.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/hook/ament_prefix_path.sh'
+[0.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faiha/polearm/src/usb_cam' with build type 'ament_cmake'
+[0.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faiha/polearm/src/usb_cam'
+[0.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.579s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/faiha/polearm/src/yolo' with build type 'ament_python'
+[0.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo', 'ament_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/yolo/share/yolo/hook/ament_prefix_path.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faiha/polearm/install/yolo/share/yolo/hook/ament_prefix_path.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/yolo/share/yolo/hook/ament_prefix_path.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.006s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/faiha/polearm/src/barcode_detection'
+[1.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faiha/polearm/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake --build /home/faiha/polearm/build/usb_cam -- -j16 -l16
+[1.412s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/faiha/polearm/src/yolo'
+[1.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faiha/polearm/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake --build /home/faiha/polearm/build/usb_cam -- -j16 -l16
+[1.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faiha/polearm/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake --install /home/faiha/polearm/build/usb_cam
+[1.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[1.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faiha/polearm/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faiha/polearm/install/yolo:/home/faiha/polearm/install/barcode_detection:/opt/ros/humble /usr/bin/cmake --install /home/faiha/polearm/build/usb_cam
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam' for CMake module files
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam' for CMake config files
+[1.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/lib'
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/bin'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/lib/python3.10/site-packages'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/bin'
+[1.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.sh'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.bash'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.zsh'
+[1.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faiha/polearm/install/usb_cam/share/colcon-core/packages/usb_cam)
+[1.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam' for CMake module files
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam' for CMake config files
+[1.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[1.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/lib'
+[1.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/bin'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/lib/python3.10/site-packages'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/usb_cam/bin'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.sh'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.bash'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/usb_cam/share/usb_cam/package.zsh'
+[1.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faiha/polearm/install/usb_cam/share/colcon-core/packages/usb_cam)
+[1.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faiha/polearm/src/barcode_detection': PYTHONPATH=/home/faiha/polearm/build/barcode_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_detection build --build-base /home/faiha/polearm/build/barcode_detection/build install --record /home/faiha/polearm/build/barcode_detection/install.log --single-version-externally-managed install_data
+[1.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faiha/polearm/src/yolo': PYTHONPATH=/home/faiha/polearm/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faiha/polearm/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/faiha/polearm/build/yolo/build install --record /home/faiha/polearm/build/yolo/install.log --single-version-externally-managed install_data
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/barcode_detection' for CMake module files
+[2.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faiha/polearm/src/barcode_detection' returned '0': PYTHONPATH=/home/faiha/polearm/build/barcode_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_detection build --build-base /home/faiha/polearm/build/barcode_detection/build install --record /home/faiha/polearm/build/barcode_detection/install.log --single-version-externally-managed install_data
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/barcode_detection' for CMake config files
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/barcode_detection/lib'
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/barcode_detection/bin'
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/barcode_detection/lib/pkgconfig/barcode_detection.pc'
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages'
+[2.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('barcode_detection', 'pythonpath')
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/hook/pythonpath.ps1'
+[2.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/hook/pythonpath.dsv'
+[2.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/hook/pythonpath.sh'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/barcode_detection/bin'
+[2.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(barcode_detection)
+[2.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/package.ps1'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/package.dsv'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/package.sh'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/package.bash'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/barcode_detection/share/barcode_detection/package.zsh'
+[2.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faiha/polearm/install/barcode_detection/share/colcon-core/packages/barcode_detection)
+[2.374s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/yolo' for CMake module files
+[2.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faiha/polearm/src/yolo' returned '0': PYTHONPATH=/home/faiha/polearm/build/yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faiha/polearm/install/yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo build --build-base /home/faiha/polearm/build/yolo/build install --record /home/faiha/polearm/build/yolo/install.log --single-version-externally-managed install_data
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/yolo' for CMake config files
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/yolo/lib'
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/yolo/bin'
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/yolo/lib/pkgconfig/yolo.pc'
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/yolo/lib/python3.10/site-packages'
+[2.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo', 'pythonpath')
+[2.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/yolo/share/yolo/hook/pythonpath.ps1'
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faiha/polearm/install/yolo/share/yolo/hook/pythonpath.dsv'
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faiha/polearm/install/yolo/share/yolo/hook/pythonpath.sh'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/faiha/polearm/install/yolo/bin'
+[2.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo)
+[2.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/yolo/share/yolo/package.ps1'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faiha/polearm/install/yolo/share/yolo/package.dsv'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/yolo/share/yolo/package.sh'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/yolo/share/yolo/package.bash'
+[2.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/faiha/polearm/install/yolo/share/yolo/package.zsh'
+[2.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faiha/polearm/install/yolo/share/colcon-core/packages/yolo)
+[2.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.384s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.393s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.411s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faiha/polearm/install/local_setup.ps1'
+[2.413s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faiha/polearm/install/_local_setup_util_ps1.py'
+[2.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faiha/polearm/install/setup.ps1'
+[2.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faiha/polearm/install/local_setup.sh'
+[2.419s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faiha/polearm/install/_local_setup_util_sh.py'
+[2.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faiha/polearm/install/setup.sh'
+[2.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faiha/polearm/install/local_setup.bash'
+[2.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faiha/polearm/install/setup.bash'
+[2.424s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faiha/polearm/install/local_setup.zsh'
+[2.425s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faiha/polearm/install/setup.zsh'

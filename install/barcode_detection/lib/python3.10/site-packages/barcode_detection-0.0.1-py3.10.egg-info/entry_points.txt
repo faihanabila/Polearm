@@ -1,0 +1,4 @@
+[console_scripts]
+barcode_node = barcode_detection.webcam_node:main
+two_webcam_node = barcode_detection.two_webcam_node:main
+

@@ -1,0 +1,24 @@
+[1.017s] Invoking command in '/home/faiha/polearm/src/barcode_detection': PYTHONPATH=/home/faiha/polearm/build/barcode_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_detection build --build-base /home/faiha/polearm/build/barcode_detection/build install --record /home/faiha/polearm/build/barcode_detection/install.log --single-version-externally-managed install_data
+[1.393s] running egg_info
+[1.394s] writing ../../build/barcode_detection/barcode_detection.egg-info/PKG-INFO
+[1.395s] writing dependency_links to ../../build/barcode_detection/barcode_detection.egg-info/dependency_links.txt
+[1.395s] writing entry points to ../../build/barcode_detection/barcode_detection.egg-info/entry_points.txt
+[1.395s] writing requirements to ../../build/barcode_detection/barcode_detection.egg-info/requires.txt
+[1.395s] writing top-level names to ../../build/barcode_detection/barcode_detection.egg-info/top_level.txt
+[1.400s] reading manifest file '../../build/barcode_detection/barcode_detection.egg-info/SOURCES.txt'
+[1.400s] adding license file 'LICENSE'
+[1.401s] writing manifest file '../../build/barcode_detection/barcode_detection.egg-info/SOURCES.txt'
+[1.402s] running build
+[1.402s] running build_py
+[1.403s] running install
+[1.403s] running install_lib
+[1.406s] running install_data
+[1.406s] copying launch/camera_barcode_detection.py -> /home/faiha/polearm/install/barcode_detection/share/barcode_detection/launch
+[1.406s] running install_egg_info
+[1.409s] removing '/home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection-0.0.1-py3.10.egg-info' (and everything under it)
+[1.410s] Copying ../../build/barcode_detection/barcode_detection.egg-info to /home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages/barcode_detection-0.0.1-py3.10.egg-info
+[1.411s] running install_scripts
+[1.447s] Installing barcode_node script to /home/faiha/polearm/install/barcode_detection/lib/barcode_detection
+[1.447s] Installing two_webcam_node script to /home/faiha/polearm/install/barcode_detection/lib/barcode_detection
+[1.448s] writing list of installed files to '/home/faiha/polearm/build/barcode_detection/install.log'
+[1.536s] Invoked command in '/home/faiha/polearm/src/barcode_detection' returned '0': PYTHONPATH=/home/faiha/polearm/build/barcode_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faiha/polearm/install/barcode_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/barcode_detection build --build-base /home/faiha/polearm/build/barcode_detection/build install --record /home/faiha/polearm/build/barcode_detection/install.log --single-version-externally-managed install_data
